@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Élec'Innov - Start-up Électrotechnique</title>
+  <style>
+    /* Style global */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #f5f7fa, #dbeafe);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #0077b6, #00b4d8);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    header p {
+      font-size: 1.3em;
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    /* Animation */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Navbar */
+    nav {
+      background: #023e8a;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #90e0ef;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+      color: #023e8a;
+    }
+
+    /* Services */
+    .services {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      width: 280px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+    }
+    .card h3 {
+      font-size: 1.5em;
+      margin-bottom: 15px;
+    }
+
+    /* Contact */
+    #contact p {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+    #contact a {
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background: #03045e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>⚡ Élec'Innov ⚡</h1>
+    <p>Innovation électrique au service de vos projets </p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>Qui sommes-nous ?</h2>
+    <p>
+      Élec'Innov est une start-up spécialisée dans les solutions électrotechniques modernes : 
+      installation domestique et industrielle, dépannages rapides et vente de matériel électrique.  
+      Notre mission : rendre l'électricité plus intelligente, plus fiable et plus accessible.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Nos Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>⚡ Installations</h3>
+        <p>Réalisation d'installations électriques domestiques et industrielles.</p>
+      </div>
+      <div class="card">
+        <h3>🔧 Dépannages</h3>
+        <p>Interventions rapides et efficaces pour vos pannes électriques.</p>
+      </div>
+      <div class="card">
+        <h3>💡 Vente Matériel</h3>
+        <p>Distribution d'équipements et accessoires électriques de qualité.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <p>Email : <a href="mailto:zabdielhounhouizi63@gmail.com">zabdielhounhouizi63@gmail.com</a></p>
+    <p>Téléphone : 0151843483 / 0165833177</p>
+    <p>Adresses : Cotonou - Porto Novo</p>
+    <p><a href="https://wa.me/229151843483" target="_blank">📲 Discuter sur WhatsApp</a></p>
+  </section>
+</body>
+</html>
